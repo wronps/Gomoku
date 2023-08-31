@@ -1,5 +1,4 @@
-#include<iostream>
-using namespace std;
+﻿#include"head.h"
 void displayboard(int board[][15], int n)
 {
     int i, j;
@@ -42,10 +41,9 @@ void displayboard(int board[][15], int n)
     }
    
 }
-
 int main()
 {
-	int board[15][15] = { 0 };
+	int board[15][15] = { 1 };
 	int n = 15;
 	displayboard(board, n);
 	return 0;
