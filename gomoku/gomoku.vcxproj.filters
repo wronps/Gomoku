@@ -15,18 +15,12 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="..\startboard\head.h">
-      <Filter>头文件</Filter>
-    </ClInclude>
-    <ClInclude Include="..\head.h">
+    <ClInclude Include="..\head2.h">
       <Filter>头文件</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="..\displayborad.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="..\startboard\startboard.cpp">
+    <ClCompile Include="..\函数.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>

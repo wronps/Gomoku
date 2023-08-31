@@ -127,12 +127,10 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClInclude Include="..\head.h" />
-    <ClInclude Include="..\startboard\head.h" />
+    <ClInclude Include="..\head2.h" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="..\displayborad.cpp" />
-    <ClCompile Include="..\startboard\startboard.cpp" />
+    <ClCompile Include="..\函数.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
